@@ -661,7 +661,7 @@ progress {
   }
 
   /* responsive  */
-  @media (max-width: 768px) and (min-width: 393px) {
+  @media (max-width: 1000px) and (min-width: 393px) {
     #mainNav {
       display: none;
     }
@@ -675,7 +675,7 @@ progress {
     }
     
     #RTH {
-      width: 350px;
+      width: 370px;
     }
 
     #logo1{
@@ -693,6 +693,14 @@ progress {
 
     .page-section, .bg-light  {
       max-width: auto;
+    }
+
+    .bg-light {
+      width: auto;
+    }
+
+    #logos {
+      padding-left: 40px;
     }
   } 
 
