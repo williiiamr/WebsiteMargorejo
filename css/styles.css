@@ -660,7 +660,8 @@ progress {
   }
   }
 
-  @media (min-width: 375px) {
+  /* responsive  */
+  @media (max-width: 768px) and (min-width: 393px) {
     #mainNav {
       display: none;
     }
@@ -672,7 +673,7 @@ progress {
     #peta {
       width: 350px;
     }
-
+    
     #RTH {
       width: 350px;
     }
@@ -688,6 +689,10 @@ progress {
     #logo {
       width: 400px;
       padding-right: 100px;
+    }
+
+    .page-section, .bg-light  {
+      max-width: auto;
     }
   } 
 
