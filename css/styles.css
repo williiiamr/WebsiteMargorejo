@@ -661,7 +661,7 @@ progress {
   }
 
   /* responsive  */
-  @media (max-width: 1000px) and (min-width: 393px) {
+  @media (max-width: 1000px) and (min-width: 200px) {
     #mainNav {
       display: none;
     }
