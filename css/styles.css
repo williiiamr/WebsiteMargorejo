@@ -702,6 +702,11 @@ progress {
     #logos {
       padding-left: 40px;
     }
+
+    #posterrth {
+      width: 370px;
+    }
+
   } 
 
 .row {
